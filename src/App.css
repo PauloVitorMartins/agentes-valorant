@@ -4,7 +4,7 @@
     position: relative;
     object-fit:cover;
     max-width: 100%;
-    margin-top: -28.7%;
+    margin-top: 0;
     z-index: 0;
     height: 22em;
   }
@@ -96,12 +96,12 @@
   }
   
   .title-agent {
+    display: block;
     position: fixed;
-    z-index: 8;
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 270%;
     color: #ece8e1;
-    position: relative;
     z-index: 2;
     margin-left: 4%;
   }
