@@ -1,0 +1,15 @@
+@media screen and (max-width: 767px) {
+    .footer-content {
+        position: absolute;
+        font-family: podium;
+        width: 100%;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #ece8e1;
+        margin-top: 0;
+        height: 5.5em;
+        background-color: #111111;
+    } 
+    }
