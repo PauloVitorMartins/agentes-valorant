@@ -22,7 +22,7 @@ function App() {
     <>
     <Header />
     <p className='title-agent'>AGENTES</p>
-    <img className='image-agents' src={imageOne}/>
+    <img className='image-agents' src='https://i.imgur.com/1L8F2lR.jpg'/>
     <p className='title-team-meet'>// CONHEÇA A EQUIPE</p>
     <p className='text-intro'>Encontre mais formas de plantar a Spike e enfrentar<br/>seus inimigos com lutadores, estratégias e caçadores<br/> de todos os tipos.</p>
       <div className='wrapper'>
