@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
     .footer-content {
-        position: absolute;
+        position: fixed;
         font-family: podium;
         width: 100%;
         bottom: 0;
