@@ -4,6 +4,7 @@ import Header from './components/Header'
 import imageOne from './img/background.png'
 import arrowUp from './img/arrowUp.png'
 import './App.css'
+import Footer from './components/Footer'
 
 function App() {
   const [showAgents, setShowAgents] = useState(false)
@@ -33,6 +34,7 @@ function App() {
         {showAgents === false && <img src={arrowUp}/>}
       </div>
     </div>
+    <Footer />
     </>
   )
 }
