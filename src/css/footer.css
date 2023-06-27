@@ -11,3 +11,15 @@
         background-color: #111111;
     }
 }
+
+.footer-content {
+    font-family: podium;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    flex-direction: column;
+    color: #ece8e1;
+    height: 11em;
+    position: fixed;
+    background-color: #111111;
+}
