@@ -22,6 +22,7 @@
   }
 
   .arrowDown {
+    transition: s linear;
     transform: rotate(-180deg);
   }
 
@@ -38,29 +39,24 @@
 
   .select-btn {
     font-family: DIN Next LT Arabic;
-    width: 92%;
+    width: 70%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-evenly;
     height: 4em;
-    padding: 0 4%;
     text-align: center;
     border: 1px solid black;
   }
 
   .select-content .options {
     max-height: 10em;
+    padding-left: 0;
     margin-top: 0;
     overflow-y: auto;
   }
 
-  .options {
-    align-items: center;
-    margin-left: -12.4%;
-  }
-
   .options li {
-    padding-left: 8%;
+    padding-left: 4%;
     display: flex;
     align-items: center;
     font-family: DIN Next LT Arabic;
@@ -80,7 +76,7 @@
     margin-top: -50%;
     height: 10em;
     border: 1px solid #373e41;
-    width: 100%;
+    width: 70%;
     border-bottom: none;
   }
   
@@ -97,7 +93,7 @@
   
   .title-agent {
     display: block;
-    position: fixed;
+    position: absolute;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 270%;
