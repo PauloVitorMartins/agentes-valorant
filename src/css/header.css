@@ -1,13 +1,12 @@
 @media screen and (max-width: 767px) {
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: #ece8e1;
-    margin-top: 0;
-    height: 3.5em;
-    background-color: #111111;
-    margin-bottom: 0;
-}
-
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #ece8e1;
+        margin-top: 0;
+        height: 3.5em;
+        background-color: #111111;
+        margin-bottom: 0;
+    }
 }

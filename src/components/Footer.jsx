@@ -1,12 +1,12 @@
-import '../css/footer.css'
+import "../css/footer.css";
 
-export default function Footer () {
+export default function Footer() {
   return (
     <>
-    <div className="footer-content">
-    <p>Made by Paulim</p>
-    <span>Baixe o jogo</span>
-    </div>
+      <div className="footer-content">
+        <p>Made by Paulim</p>
+        <span>Baixe o jogo</span>
+      </div>
     </>
-  )
+  );
 }
