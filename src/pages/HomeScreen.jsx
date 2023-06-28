@@ -10,6 +10,7 @@ export default function HomeMobile() {
     ["04","SOVA"],
     ["05","VIPER"],
     ["06","CYPHER"],
+    ["07","REYNA"],
     ["08", "KILLJOY"],
     ["09", "BREACH"],
     ["10", "OMEN"],
@@ -25,7 +26,7 @@ export default function HomeMobile() {
       <Header />
       <div className="list-text">
       <div className="agents-list">
-        <div>
+        <div className="index-box">
         {agents.map((el) => 
         <> <span className="agent-index">{el[0]}</span><br/></>
        )}  

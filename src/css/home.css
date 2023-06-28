@@ -61,7 +61,19 @@
         cursor: pointer;
         margin-left: 2%;
     }
+
+    .agent-name:hover {
+        margin-left: 8%;
+        transform: scale(1.05);
+        transition: 0.2s linear;
+    }
     
+    .agent-name:not(:hover) {
+        margin-left: 2%;
+        transform: scale(1);
+        transition: 0.2s linear;
+    }
+
     .list-text {
         display: flex;
         flex-direction: row;
@@ -76,11 +88,11 @@
     .agents-list {
         display: flex;
         flex-direction: row;
-        max-height: 74vh;
-        width: 20%;
+        max-height: 75vh;
+        width: 25%;
         overflow-y: auto;
         pointer-events: all;
-        font-size: 600%;
+        font-size: 800%;
         color: #ece8e1;
         padding: 0;
         font-family: podium;
