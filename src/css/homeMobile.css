@@ -1,3 +1,23 @@
+@font-face {
+  font-family: podium;
+  src: url(../font/PODIUMSharp-2.11.otf);
+}
+
+@font-face {
+  font-family: DIN Next LT Arabic;
+  src: url("//db.onlinewebfonts.com/t/aba1a083bf50980a05f0265179103a09.eot");
+  src: url("//db.onlinewebfonts.com/t/aba1a083bf50980a05f0265179103a09.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aba1a083bf50980a05f0265179103a09.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aba1a083bf50980a05f0265179103a09.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aba1a083bf50980a05f0265179103a09.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aba1a083bf50980a05f0265179103a09.svg#DIN Next LT Arabic Medium")
+      format("svg");
+}
+
 @media screen and (max-width: 767px) {
   .image-agents {
     position: relative;
